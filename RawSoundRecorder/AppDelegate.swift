@@ -16,8 +16,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Initilize session var
+        guard let settings = UserSettings.shared else {
+            callAlert(.fatal, "Error attempting to access user data.")
+            return
+        }
+        let session = SessionData(settings)
+        
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
+            .environmentObject(session)
 
         // Create the window and set the content view. 
         window = NSWindow(

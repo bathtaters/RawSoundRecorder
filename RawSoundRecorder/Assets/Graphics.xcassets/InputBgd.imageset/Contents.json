@@ -1,0 +1,50 @@
+{
+  "images" : [
+    {
+      "filename" : "Knob B-G Lite.pdf",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 25,
+          "left" : 34,
+          "right" : 34,
+          "top" : 27
+        },
+        "center" : {
+          "height" : 3,
+          "mode" : "tile",
+          "width" : 1
+        },
+        "mode" : "9-part"
+      }
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "Knob Background.pdf",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 30,
+          "left" : 32,
+          "right" : 32,
+          "top" : 29
+        },
+        "center" : {
+          "height" : 2,
+          "mode" : "tile",
+          "width" : 1
+        },
+        "mode" : "9-part"
+      }
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
